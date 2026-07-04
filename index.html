@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.Parth Jani | Portfolio Website </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-accent">Dr.</span> Parth jani
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="expertise.html" class="nav-link">Expertise</a></li>
+                    <li class="nav-item"><a href="testimonials.html" class="nav-link">Patients</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                    
+                    
+                </ul>
+                
+                <div class="nav-close" id="nav-close">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+             <a href="contact.html" class="btn-primary">Book Consultation</a>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ==================== HERO SECTION (ULTRA-PREMIUM MEDICAL) ==================== -->
+    <main class="main">
+        <section class="hero section" id="home">
+            
+            <!-- === ADVANCED HEAVILY LOADED MEDICAL BACKGROUND === -->
+            <div class="medical-bg">
+                
+                <!-- [DESKTOP]: Neurology Synapses & Tech Grid -->
+                <div class="desktop-medical-bg">
+                    <!-- Firing Brain Synapse Network -->
+                    <svg class="brain-network" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice">
+                        <g class="neural-links">
+                            <path d="M100,150 L250,250 L400,180" class="neuron-link"/>
+                            <path d="M250,250 L200,400 L350,480" class="neuron-link"/>
+                            <path d="M400,180 L550,300 L700,150" class="neuron-link"/>
+                            <path d="M550,300 L800,400 L900,250" class="neuron-link"/>
+                            <path d="M700,150 L900,100" class="neuron-link"/>
+                            <path d="M200,400 L100,500" class="neuron-link"/>
+                        </g>
+                        <g class="neural-nodes">
+                            <circle cx="100" cy="150" r="4" class="neuron-node node-1"/>
+                            <circle cx="250" cy="250" r="7" class="neuron-node node-2"/>
+                            <circle cx="400" cy="180" r="5" class="neuron-node node-3"/>
+                            <circle cx="200" cy="400" r="6" class="neuron-node node-4"/>
+                            <circle cx="350" cy="480" r="4" class="neuron-node node-5"/>
+                            <circle cx="550" cy="300" r="8" class="neuron-node node-1"/>
+                            <circle cx="700" cy="150" r="5" class="neuron-node node-2"/>
+                            <circle cx="800" cy="400" r="6" class="neuron-node node-3"/>
+                            <circle cx="900" cy="250" r="4" class="neuron-node node-4"/>
+                            <circle cx="900" cy="100" r="5" class="neuron-node node-5"/>
+                            <circle cx="100" cy="500" r="5" class="neuron-node node-3"/>
+                        </g>
+                    </svg>
+
+                    <!-- Glowing EKG Tech Line -->
+                    <svg class="neuro-pulse-desktop" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                        <polyline class="pulse-line" points="0,50 150,50 170,20 190,80 210,10 230,90 250,50 500,50 650,50 670,20 690,80 710,10 730,90 750,50 1000,50" />
+                        <!-- Scanning electric tracer -->
+                        <polyline class="pulse-tracer" points="0,50 150,50 170,20 190,80 210,10 230,90 250,50 500,50 650,50 670,20 690,80 710,10 730,90 750,50 1000,50" />
+                    </svg>
+                </div>
+
+                <!-- [MOBILE]: Immersive Pumping Heart & Electric Pulse -->
+                <div class="mobile-medical-bg">
+                    <!-- Beating Medical Heart Icon -->
+                    <svg class="pumping-heart-mobile" viewBox="0 0 100 100">
+                        <defs>
+                            <linearGradient id="heartGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="var(--color-secondary)" />
+                                <stop offset="100%" stop-color="#b8912d" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M 50,85 C 50,85 10,55 10,30 C 10,15 25,5 40,15 L 50,25 L 60,15 C 75,5 90,15 90,30 C 90,55 50,85 50,85 Z" fill="url(#heartGlow)" />
+                    </svg>
+                    
+                    <!-- Sweeping EKG Line -->
+                    <svg class="neuro-pulse-mobile" viewBox="0 0 500 100" preserveAspectRatio="none">
+                        <polyline class="pulse-line-mobile" points="0,50 100,50 120,20 140,80 160,10 180,90 200,50 500,50 600,50 620,20 640,80 660,10 680,90 700,50 1000,50" />
+                    </svg>
+                </div>
+            </div>
+
+            <!-- === HERO CONTENT & 3D IMAGE FOREGROUND === -->
+            <div class="hero-container container grid">
+                
+                <div class="hero-data">
+                    <span class="hero-subtitle reveal">Advanced Neurosurgical Excellence</span>
+                    
+                    <h1 class="hero-title reveal reveal-delay-1">Mastering the Art of <span class="shimmer-text">Neurosurgery.</span></h1>
+                    
+                    <p class="hero-description reveal reveal-delay-2">
+                        Led by Dr. Parth Jani, a renowned Hybrid Neurosurgeon and <strong class="text-highlight-gold shimmer-text">Double Gold Medalist</strong>. Experience world-class brain, spine, and neurovascular care driven by precision, innovation, and deep compassion.
+                    </p>
+                    
+                    <!-- UPDATED: Using dedicated .btn-hero class -->
+                    <div class="hero-btns reveal reveal-delay-3">
+                        <a href="#appointment" class="btn-hero glow-effect">Book Consultation</a>
+                        <a href="#about" class="btn-hero glow-effect">Meet Dr. Jani</a>
+                    </div>
+                </div>
+
+                <div class="hero-images reveal reveal-delay-2">
+                    <div class="hero-img-box">
+                        <img src="img/dr. parth janiprofile image.webp" alt="Dr. Parth Jani - Neurosurgeon" class="hero-img">
+                        
+                        <div class="floating-card glass-card card-1">
+                            <span class="card-number">3,500+</span>
+                            <span class="card-text">Successful<br>Surgeries</span>
+                        </div>
+
+                        <div class="floating-card glass-card card-2 highlight-gold pulse-glow">
+                            <span class="card-number gold-text-accent">2x</span>
+                            <span class="card-text">Gold<br>Medalist</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Luxury Scroll Down Indicator -->
+            <div class="scroll-indicator reveal reveal-delay-4">
+                <span class="scroll-text">Scroll to explore</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <section class="trust-stats section" id="statistics">
+        
+        <div class="stats-bg">
+            <div class="synapse-field" id="synapse-field">
+                <div class="synapse-node n1"></div>
+                <div class="synapse-node n2"></div>
+                <div class="synapse-node n3"></div>
+                <div class="synapse-node n4"></div>
+            </div>
+            <svg class="data-wave" viewBox="0 0 1200 400" preserveAspectRatio="none">
+                <path class="wave-path" d="M 0,200 C 200,100 400,300 600,200 C 800,100 1000,300 1200,200 L 1200,400 L 0,400 Z" />
+            </svg>
+        </div>
+
+        <div class="container relative-z">
+            <div class="section-title-wrapper reveal">
+                <span class="section-subtitle">Proven Outcomes</span>
+                <h2 class="section-title">Excellence by the <span>Numbers</span></h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card glass-light reveal reveal-delay-1">
+                    <h3 class="stat-number"><span class="counter" data-target="3500">0</span>+</h3>
+                    <p class="stat-label">Successful Surgeries</p>
+                </div>
+                <div class="stat-card glass-light reveal reveal-delay-2">
+                    <h3 class="stat-number"><span class="counter" data-target="15">0</span>+</h3>
+                    <p class="stat-label">Years of Experience</p>
+                </div>
+                <div class="stat-card glass-light reveal reveal-delay-3">
+                    <h3 class="stat-number"><span class="counter" data-target="10000">0</span>+</h3>
+                    <p class="stat-label">Lives Touched</p>
+                </div>
+                <div class="stat-card glass-light highlight-gold-light reveal reveal-delay-4">
+                    <h3 class="stat-number"><span class="counter" data-target="2">0</span>x</h3>
+                    <p class="stat-label">Gold Medalist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section" id="about">
+        <div class="about-container container grid">
+            
+            <div class="about-visual reveal">
+                <div class="about-img-box">
+                    <img src="img/homepage.webp" alt="Dr. Parth Jani" class="about-img">
+                    <div class="img-accent-frame"></div>
+                </div>
+            </div>
+
+            <div class="about-data">
+                <span class="about-subtitle reveal reveal-delay-1">Professional Profile</span>
+                <h2 class="section-title reveal reveal-delay-1">Dr. Parth Jani</h2>
+                <h4 class="about-designation reveal reveal-delay-2">Hybrid Neurosurgeon</h4>
+                
+                <div class="about-bio reveal reveal-delay-3">
+                    <p>Dr. Parth Jani is a renowned Hybrid Neurosurgeon specializing in advanced brain, spine, and neurovascular surgery. A Double Gold Medalist, he completed his M.Ch. in Neurosurgery with distinction and pursued advanced fellowships in Cerebrovascular Neurosurgery at PGIMER Chandigarh and Stroke & Neurointervention.</p>
+                    
+                    <p>With 3,500+ successful neurosurgeries and extensive experience in both microsurgical and endovascular procedures, he is recognized for managing some of the most complex neurological conditions.</p>
+                    
+                    <p>His expertise includes brain and spine tumors, brain aneurysms, acute stroke interventions, mechanical thrombectomy, AVMs, pituitary surgery, cerebrovascular disorders, and minimally invasive neurosurgery.</p>
+                </div>
+
+                <div class="about-cta reveal reveal-delay-4">
+                    <a href="#appointment" class="btn-primary">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE DOCTOR SECTION ==================== -->
+    <section class="why-choose section" id="why-choose">
+        <div class="container">
+            
+            <div class="section-title-wrapper reveal">
+                <span class="section-subtitle">Clinical Philosophy</span>
+                <h2 class="section-title">Why Choose <span>Dr. Parth Jani</span></h2>
+            </div>
+
+            <div class="why-grid">
+                <!-- Advantage 1: Academic Excellence -->
+                <div class="why-card reveal reveal-delay-1">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M2 12h20M12 2L22 12M22 12L12 22"/></svg>
+                    </div>
+                    <h3>Academic Distinction</h3>
+                    <p>A Double Gold Medalist and M.Ch. graduate with distinction, backed by rigorous fellowships from prestigious national institutions.</p>
+                </div>
+
+                <!-- Advantage 2: Clinical Mastery -->
+                <div class="why-card reveal reveal-delay-2">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Proven Clinical Mastery</h3>
+                    <p>Experience derived from 3,500+ successful complex neurosurgeries, encompassing both advanced microsurgical and endovascular techniques.</p>
+                </div>
+
+                <!-- Advantage 3: Innovative Care -->
+                <div class="why-card reveal reveal-delay-3">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+                    </div>
+                    <h3>Research-Driven Innovation</h3>
+                    <p>Combining evidence-based treatment with cutting-edge technology to ensure compassionate care and exceptional patient outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== EXPERTISE SECTION (ANIMATED ICONS) ==================== -->
+    <section class="expertise section" id="expertise">
+        <div class="container">
+            
+            <div class="section-title-wrapper reveal">
+                <span class="section-subtitle">Clinical Focus</span>
+                <h2 class="section-title">Areas of <span>Expertise</span></h2>
+            </div>
+
+            <div class="expertise-grid">
+                <!-- Brain & Tumor (Animated Brain Pulse) -->
+                <div class="expertise-card reveal">
+                    <div class="exp-icon-box">
+                        <svg class="anim-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path class="brain-pulse" d="M12 2v2M2 12h2M22 12h-2M12 22v-2M6 6l1 1M17 17l1 1M17 7l1-1M6 18l1-1"/>
+                            <circle class="brain-core" cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Brain & Spine Tumors</h3>
+                    <ul>
+                        <li>Advanced Brain Tumor Resection</li>
+                        <li>Complex Spinal Tumor Surgery</li>
+                    </ul>
+                </div>
+
+                <!-- Neurovascular (Flowing Blood/Pulse) -->
+                <div class="expertise-card reveal reveal-delay-1">
+                    <div class="exp-icon-box">
+                        <svg class="anim-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path class="flow-path" d="M2 12c4-4 6-4 10 0s6 4 10 0" />
+                            <path class="flow-path-2" d="M2 16c4-4 6-4 10 0s6 4 10 0" />
+                        </svg>
+                    </div>
+                    <h3>Neurovascular Care</h3>
+                    <ul>
+                        <li>Brain Aneurysm Clipping</li>
+                        <li>AVM Management</li>
+                    </ul>
+                </div>
+
+                <!-- Stroke (Electric Strike) -->
+                <div class="expertise-card reveal reveal-delay-2">
+                    <div class="exp-icon-box">
+                        <svg class="anim-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path class="bolt-path" d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>Stroke & Intervention</h3>
+                    <ul>
+                        <li>Acute Stroke Intervention</li>
+                        <li>Mechanical Thrombectomy</li>
+                    </ul>
+                </div>
+
+                <!-- Advanced Procedures (Precision Gear) -->
+                <div class="expertise-card reveal reveal-delay-3">
+                    <div class="exp-icon-box">
+                        <svg class="anim-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle class="gear-outer" cx="12" cy="12" r="7"/>
+                            <path class="gear-teeth" d="M12 2v3M12 19v3M2 12h3M19 12h3M5.5 5.5l2 2M16.5 16.5l2 2M5.5 18.5l2-2M16.5 7.5l2-2"/>
+                        </svg>
+                    </div>
+                    <h3>Advanced Procedures</h3>
+                    <ul>
+                        <li>Pituitary Surgery</li>
+                        <li>Minimally Invasive Neurosurgery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ==================== FOOTER & APPOINTMENT HUB ==================== -->
+<footer class="footer-hub" id="contact">
+    <!-- Pulse Animation Background -->
+    <div class="footer-bg-anim">
+        <svg class="footer-pulse" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <polyline class="pulse-line" points="0,50 150,50 170,10 190,90 210,10 230,90 250,50 1000,50" />
+        </svg>
+    </div>
+
+    <div class="container relative-z">
+        <!-- Appointment Card -->
+        <div class="appointment-card reveal">
+            <h2 class="section-title">Ready to take control of <span>your health?</span></h2>
+            <p>Dr. Parth Jani is currently accepting consultations at HCG Hospitals, Ahmedabad.</p>
+            <div class="appointment-btns">
+                <a href="tel:+919876543210" class="btn-hero">Call Now</a>
+                <a href="mailto:contact@drparthjani.com" class="btn-hero">Email Inquiry</a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2026 Dr. Parth Jani. All rights reserved.</p>
+            
+            <a href="https://shadow15.in" class="agency-btn" target="_blank" rel="noopener noreferrer">
+                Designed & Developed by <span class="brand-name">Shadow15</span>
+            </a>
+
+            <div class="footer-social">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg class="social-icon" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg class="social-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.948-.196-4.354-2.618-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
